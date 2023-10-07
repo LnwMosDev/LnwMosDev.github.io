@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2rem;
+        }
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .text1 img,
+        .text2 img {
+            width: 90%;
+            height: 400px;
+            align-items: center;
+            object-fit: cover;
+        }
+
+        .text2 img {
+            margin: 0% 10%;
+        }
+
+        .text1 {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        .text2 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        @media screen and (max-width:1000px) {
+            .container {
+                grid-template-columns: 1fr;
+                grid-gap: 0;
+            }
+
+            .swiper {
+                width: 100%;
+                height: 60vh;
+            }
+
+            .text1,
+            .text2 {
+                grid-template-columns: 1fr;
+                grid-gap: 0;
+            }
+
+            .text1 img {
+                width: 100%;
+
+
+            }
+
+            .text2 img {
+                width: 100%;
+                margin: 0;
+
+            }
+
+            img {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html" class="logo"><span>My</span>Website</a>
+        <!-- แทรกปุ่มเมนูเวลาย่อหน้าจอ -->
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <!-- <a href="index.html">home</a>
+            <a href="#Features">Features</a> -->
+            <!-- <a href="about.html">เกี่ยวกับฉัน</a> -->
+            <a href="./AboutMe.html">เกี่ยวกับฉัน</a>
+            <a href="./MyWork.html">ผลงาน</a>
+            <!-- <a href="#pricing">pricing</a>
+            <a href="#contact">contact</a> -->
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h2>641413019 ณัฐดนัย วงค์ษา</h2>
+    </div>
+
+    <div id="content1">
+        <h2 data-aos="fade-up">เกี่ยวกับ<span>ตัวเอง</span></h2>
+        <div class="text1">
+            <div class="grid-container" data-aos="fade-up">
+                <p>ชื่อ - นามสกุล : นายณัฐดนัย วงค์ษา</p>
+                <p>ชื่อ - นามสกุล (English) : Mr. Natdanai Wongsa</p>
+                <p>วัน เดือน ปี เกิด : 10 พฤษภาคม 2544</p>
+                <p>รหัสนักศึกษา : 641413019</p>
+                <p>ประเภทนักศึกษา : ปริญญาตรี ภาคปกติ (เรียนวันจันทร์-วันศุกร์)</p>
+                <p>คณะ / สำนักวิชา / วิทยาลัย : สำนักวิชาคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</p>
+                <p>สาขาวิชา : เทคโนโลยีสารสนเทศ</p>
+                <p>ระดับ : วิทยาศาสตรบัณฑิต - วท.บ.4ปี</p>
+
+            </div>
+            <div class="grid-container" data-aos="fade-up">
+                <img src="./img/A1.jpg" alt="" data-aos="fade-up">
+            </div>
+        </div>
+        <br><br>
+        <h2 data-aos="fade-up"> ข้อมูล<span>วุฒิการศึกษา</span>เดิม</h2>
+        <div class="text2">
+            <div class="grid-container" data-aos="fade-up">
+                <img src="./img/A2.jpg" alt="" data-aos="fade-up">
+
+            </div>
+            <div class="grid-container" data-aos="fade-up">
+                <p>วุฒิการศึกษา : มัธยมศึกษาปีที่ 6</p>
+                <p>วิชาเอก/สาขาวิชา : วิทย์-คณิต</p>
+                <p>เกรดเฉลี่ย : 3.26</p>
+                <p>โรงเรียน แม่สรวยวิทยาคม</p>
+                <p>ที่อยู่สถานศึกษา ตำบล แม่สรวย อำเภอ แม่สรวย จังหวัด เชียงราย</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="content2">
+        <div class="" data-aos="fade-up">
+            <h2><span>ทักษะ</span>และ<span>ความสามารถพิเศษ</span></h2>
+            <p>People Skills สามารถอยู่ร่วมกันกับผู้อื่น</p>
+            <p>Teamwork Skills สามารถทำงานเป็นร่วมกันกับผู้อื่นได้ ภายในทีม</p>
+            <p>Computer Skills สามารถใช้งานคอมพิวเตอร์ระดับพื้นฐาน</p>
+            <p>Communication Skills สามารถสื่อสารให้ผู้อื่นเข้าใจ</p>
+            <p>Emotional Skills สามารถควบคุมอารมณ์ได้ดี</p>
+        </div>
+    </div>
+
+    <div id="content3">
+        <div class="" data-aos="fade-up">
+            <h2><span>เป้าหมาย</span>ใน<span>ชีวิต</span></h2>
+            <p>ซื้อทุกอย่างที่อยากซื้อได้</p>
+        </div>
+    </div>
+
+    <div id="content4">
+        <h2 data-aos="fade-up"><span>I</span>MAGE</h2>
+        <div class="container">
+            <div class="item">
+                <div class="img" data-aos="fade-up">
+                    <img src="./img/18768360_188524625006595_74456474583904858_o.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="img" data-aos="fade-up">
+                    <img src="./img/A2.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="img" data-aos="fade-up">
+                    <img src="./img/A1.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="img" data-aos="fade-up">
+                    <img src="./img/A4.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="img" data-aos="fade-up">
+                    <img src="./img/A5.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="img" data-aos="fade-up">
+                    <img src="./img/A6.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="content5">
+        <footer class="footer">
+
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a></li>
+
+            </ul>
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#">CS&IT 641413019 Offical Website</a></li>
+                <!-- <li class="menu__item"><a class="menu__link" href="#">Features</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Review</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Pricing</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contact</a></li> -->
+
+            </ul>
+            <p>ที่อยู่: 282 ตำบล : แม่สรวย อำเภอ : แม่สรวย จังหวัด : เชียงราย 57180</p>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
